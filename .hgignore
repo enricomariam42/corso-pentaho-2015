@@ -1,0 +1,11 @@
+syntax: glob
+dmp/
+doc/
+log/
+.languageChoice
+.spoonrc
+db.cache*
+xulSettings.properties
+*~
+*.orig
+*.backup
