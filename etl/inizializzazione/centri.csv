@@ -1,0 +1,240 @@
+azienda,dipartimento,cod_cdr,descrizione_cdr,cod_cdc,descrizione_cdc
+Azienda Fintissima,Dipartimento Emergenza Urgenza,riani,Rianimazione,cdc00144,Rianimazione (c. di c. comune)
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00148,Dir. Sanitaria di Presidio (c. di c. comune)
+Azienda Fintissima,Dipartimento Emergenza Urgenza,riani,Rianimazione,cdc00149,Rianimazione degenzaN.
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardiol,Cardiologia,cdc00152,Cardiologia (c. di c. comune)
+Azienda Fintissima,Dipartimento area Chirurgica,chirgen,Chirurgia Generale,cdc00155,Chirurgia (c. di c. comune)
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardiol,Cardiologia,cdc00158,Cardiologia degenza
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00160,Servizio di assistenza sociale
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00161,Archivio ed Ufficio rilascio cartelle cliniche- 
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardiol,Cardiologia,cdc00165,Unita Coronarica degenza
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00167,Servizio Dietetico
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardiol,Cardiologia,cdc00172,Cardiologia Settore Emodinamica
+Azienda Fintissima,Dipartimento area Chirurgica,chirgen,Chirurgia Generale,cdc00183,Chirurgia degenza
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardiol,Cardiologia,cdc00186,Cardiologia Settore Ecocardiografia ed Ergometria
+Azienda Fintissima,Dipartimento area Chirurgica,chirgen,Chirurgia Generale,cdc00190,Chirurgia Ambulatorio colonstomizzati
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardiol,Cardiologia,cdc00193,Cardiol.Amb.Cardiografia ed Ecg computerizzata
+Azienda Fintissima,Dipartimento Salute Mentale,neurops,Neuropsichiatrianfanzia e Adolescenza,cdc00194,Neuropsichiatrianfantile (c. di c. comune)
+Azienda Fintissima,Dipartimento Oncologico,emat,Ematologia,cdc00199,Ematologia (c. di c. comune)
+Azienda Fintissima,Dipartimento Salute Mentale,neurops,Neuropsichiatrianfanzia e Adolescenza,cdc00200,Neuropsichiatrianfantile degenza
+Azienda Fintissima,Dipartimento Oncologico,emat,Ematologia,cdc00204,Ematologia degenza ordinaria
+Azienda Fintissima,Dipartimento Salute Mentale,neurops,Neuropsichiatrianfanzia e Adolescenza,cdc00205,Att. ambulatoriale Neuropsichiatrianfantile
+Azienda Fintissima,Dipartimento Oncologico,emat,Ematologia,cdc00209,Ematologia degenza day hospital
+Azienda Fintissima,Dipartimento Oncologico,emat,Ematologia,cdc00213,Ambulatori di Ematologia
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,chirtor,Chirurgia Toracica,cdc00216,Chirurgia Toracica (c. di c. comune)
+Azienda Fintissima,Dipartimento Oncologico,emat,Ematologia,cdc00217,Ematologia Laboratorio di ricerca patologia molecolare
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,chirtor,Chirurgia Toracica,cdc00220,Chirurgia Toracica degenza
+Azienda Fintissima,Dipartimento Oncologico,emat,Ematologia,cdc00221,EmatologiaTAO -Laboratorio di ricerca Emostasi e Trombosi
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,pneumo,Pneumologia,cdc00224,Servizio di Endoscopia Respiratoria
+Azienda Fintissima,Dipartimento area Medica,derm,Dermatologia,cdc00226,Dermatologia (c. di c. comune) 
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardch,Cardiochirurgia,cdc00229,Cardiochirurgia (c. di c. comune)
+Azienda Fintissima,Dipartimento area Medica,derm,Dermatologia,cdc00231,Dermatologia degenza 
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardch,Cardiochirurgia,cdc00234,Cardiochirurgia degenza
+Azienda Fintissima,Dipartimento area Medica,geria,Geriatria,cdc00236,Geriatria  (c. di c. comune)
+Azienda Fintissima,Dipartimento Neuroscienze,neuroch,Neurochirurgia,cdc00238,Neurochirurgia (c. di c. comune)
+Azienda Fintissima,Dipartimento area Medica,geria,Geriatria,cdc00240,Geriatria degenza sez. A
+Azienda Fintissima,Dipartimento Neuroscienze,neuroch,Neurochirurgia,cdc00242,Neurochirurgia degenza
+Azienda Fintissima,Dipartimento Neuroscienze,neuroch,Neurochirurgia,cdc00246,Neurochirurgia Ambulatori MAC
+Azienda Fintissima,Dipartimento area Medica,geria,Geriatria,cdc00249,Attivita ambulatoriale di Geriatria 
+Azienda Fintissima,Dipartimento area Chirurgica,orto,Ortopedia e Traumatologia,cdc00251,Ortopedia e Traumatologia (c. di c. comune)
+Azienda Fintissima,Dipartimento area Chirurgica,orto,Ortopedia e Traumatologia,cdc00254,Ortopedia e Traumatologia degenza sez. A  P.O.
+Azienda Fintissima,Dipartimento area Chirurgica,orto,Ortopedia e Traumatologia,cdc00257,Ortopedia e Traumatologia  P.O. degenza sez. B
+Azienda Fintissima,Dipartimento area Chirurgica,orto,Ortopedia e Traumatologia,cdc00259,Attiv. Ambulatoriale Ortopedia e Traumatologia P.O.
+Azienda Fintissima,Dipartimento area Medica,geria,Geriatria,cdc00261,Ambulatori divisionali di Geriatria
+Azienda Fintissima,Dipartimento Neuroscienze,otorin,Otorinolaringoiatria,cdc00262,Otorinolaringoiatria (c. di c. comune)
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00264,Medicina  (c. di c. comune)
+Azienda Fintissima,Dipartimento Neuroscienze,otorin,Otorinolaringoiatria,cdc00265,Otorinolaringoiatria degenza
+Azienda Fintissima,Dipartimento area Chirurgica,chirgen,Chirurgia Generale,cdc00266,Attivita operatoria di Chirurgia
+Azienda Fintissima,Dipartimento Neuroscienze,otorin,Otorinolaringoiatria,cdc00268,Otorinolaringoiatria Settore Audiologia
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00270,Medicina  degenza
+Azienda Fintissima,Dipartimento area Chirurgica,urolo,Urologia,cdc00271,Urologia (c. di c. comune)
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00273,Servizio di Diabetologia
+Azienda Fintissima,Dipartimento area Chirurgica,urolo,Urologia,cdc00274,Urologia degenza 
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,chirtor,Chirurgia Toracica,cdc00275,Attivita operatoria di Chirurgia Toracica
+Azienda Fintissima,Dipartimento area Medica,gastro,Gastroenterologia,cdc00276,Settore Epatologia
+Azienda Fintissima,Dipartimento area Chirurgica,urolo,Urologia,cdc00277,Urologia Settore Endoscopia Urologica
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardch,Cardiochirurgia,cdc00278,Attivita operatoria di Cardiochirurgia
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00279,Medicina Settore Nefrocardiovascolare
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00282,Medicina Centro prev. malattie cardio-vascolari
+Azienda Fintissima,Dipartimento area Chirurgica,orto,Ortopedia e Traumatologia,cdc00284,Ortopedia Traumatologia Attivita operatoria
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00285,Medicina ex (c. di c. comune) 
+Azienda Fintissima,Dipartimento Neuroscienze,otorin,Otorinolaringoiatria,cdc00287,Otorinolaringoiatria Attivita operatoria
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00288,Medicina ex  degenza day hospital
+Azienda Fintissima,Dipartimento area Chirurgica,urolo,Urologia,cdc00290,Urologia Attivita operatoria
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00291,Medicina ex degenza sez. B
+Azienda Fintissima,Dipartimento Emergenza Urgenza,riani,Rianimazione,cdc00295,Terapiantensiva cardiochirurgica degenza
+Azienda Fintissima,Dipartimento Neuroscienze,neuroch,Neurochirurgia,cdc00296,Attivita operatoria di Neurochirurgia
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00297,Medicina (c. di c. comune)
+Azienda Fintissima,Dipartimento Emergenza Urgenza,riani,Rianimazione,cdc00298,Terapiantensiva neurochirurgica degenza
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00300,Medicina. degenza A
+Azienda Fintissima,Dipartimento area Chirurgica,chirgen,Chirurgia Generale,cdc00301,Chirurgia Generale urgenza 
+Azienda Fintissima,Dipartimento Neuroscienze,otorin,Otorinolaringoiatria,cdc00302,Otorinolaringoiatria Sala operatoria
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00303,Medicina degenza B
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00306,MedicinaAttivita ambulatoriale
+Azienda Fintissima,Dipartimento area Chirurgica,urolo,Urologia,cdc00310,Urologia urgenza 
+Azienda Fintissima,Dipartimento area Medica,nefro,Nefrologia e Dialisi,cdc00312,Nefrologia e Dialisi (c. di c. comune)
+Azienda Fintissima,Dipartimento area Chirurgica,chirgen,Chirurgia Generale,cdc00313,Week Surgery Chirurgia Generale 
+Azienda Fintissima,Dipartimento area Medica,nefro,Nefrologia e Dialisi,cdc00314,Nefrologia degenza 
+Azienda Fintissima,Dipartimento area Chirurgica,urolo,Urologia,cdc00316,Attivita ambulatoriale di Urologia
+Azienda Fintissima,Dipartimento area Medica,nefro,Nefrologia e Dialisi,cdc00317,Nefrologia Ambulatori divisionali ed ecocolordoppler
+Azienda Fintissima,Dipartimento area Medica,derm,Dermatologia,cdc00319,Attivita ambulatoriale di Dermatologia
+Azienda Fintissima,Dipartimento Neuroscienze,neurol,Neurologia,cdc00320,Neurologia (c. di c. comune)
+Azienda Fintissima,Dipartimento area Chirurgica,urolo,Urologia,cdc00321,Week Surgery Urologia 
+Azienda Fintissima,Dipartimento Neuroscienze,otorin,Otorinolaringoiatria,cdc00322,ORL  Attivita ambulatoriale
+Azienda Fintissima,Dipartimento Neuroscienze,neurol,Neurologia,cdc00323,Neurologia  degenza A
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,chirvas,Chirurgia Vascolare,cdc00324,Chirurgia Vascolare c di c comune 
+Azienda Fintissima,Dipartimento Neuroscienze,neuroch,Neurochirurgia,cdc00325,Attivita ambulatoriale di Neurochirurgia
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,chirvas,Chirurgia Vascolare,cdc00327,Chirurgia Vascolare degenza 
+Azienda Fintissima,Dipartimento Neuroscienze,neurol,Neurologia,cdc00329,Neurologia  Settore Neurofisiopatologia
+Azienda Fintissima,Dipartimento Neuroscienze,neurol,Neurologia,cdc00331,Attivita ambulatoriale di Neurologia -
+Azienda Fintissima,Dipartimento area Chirurgica,chirgen,Chirurgia Generale,cdc00333,Attivita ambulatoriale di Chirurgia
+Azienda Fintissima,Dipartimento Neuroscienze,neurol,Neurologia,cdc00334,Neurologia Laboratori di ricerca Neurobiologia
+Azienda Fintissima,Dipartimento Materno Infantile,ped,Pediatria,cdc00338,Pediatria (c. di c. comune)
+Azienda Fintissima,Dipartimento Materno Infantile,ped,Pediatria,cdc00340,Pediatria degenza ordinaria
+Azienda Fintissima,Dipartimento Materno Infantile,ped,Pediatria,cdc00342,Pediatria  degenza ordinaria
+Azienda Fintissima,Dipartimento Materno Infantile,ped,Pediatria,cdc00344,Pediatria  day hospital
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00345,D.H Medicina 
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00347,Medicina ex attivita ambulatoriale
+Azienda Fintissima,Dipartimento Materno Infantile,ped,Pediatria,cdc00348,Ematologia pediatrica degenza
+Azienda Fintissima,Dipartimento Neuroscienze,ocul,Oculistica,cdc00350,Attivita ambulatoriale di Oculistica
+Azienda Fintissima,Dipartimento Materno Infantile,ped,Pediatria,cdc00351,Attivita ambulatoriale di Pediatria
+Azienda Fintissima,Dipartimento Materno Infantile,ped,Pediatria,cdc00352,Pediatria .Lab. ricerca Leucemie e Emopatienfantili
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,chirtor,Chirurgia Toracica,cdc00353,Attivita ambulatoriale di Chirurgia Toracica
+Azienda Fintissima,Dipartimento Materno Infantile,ped,Pediatria,cdc00354,Pediatria Lab. ricerca Leucemie e Emopatienfantili
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,pneumo,Pneumologia,cdc00356,Pneumologia (c. di c. comune)
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,pneumo,Pneumologia,cdc00359,Pneumologia degenza
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,pneumo,Pneumologia,cdc00361,Pneumologia ambulatori
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,pneumo,Pneumologia,cdc00363,Pneumologia  Settore Fisiopatologia Respiratoria
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,pneumo,Pneumologia,cdc00365,Pneumologia  Settore Broncologia e Toracoscopia
+Azienda Fintissima,Dipartimento Oncologico,oncol,Oncologia Medica,cdc00366,Attivita ambulatoriale di Oncologia 
+Azienda Fintissima,Dipartimento Oncologico,radiot,Radioterapia,cdc00367,Radioterapia (c. di c. comune)
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardch,Cardiochirurgia,cdc00368,Attivita ambulatoriale di cardiochirurgia
+Azienda Fintissima,Dipartimento Oncologico,radiot,Radioterapia,cdc00369,Radioterapia degenza ordinaria
+Azienda Fintissima,Dipartimento Oncologico,oncol,Oncologia Medica,cdc00371,Day hospital oncologico
+Azienda Fintissima,Dipartimento Oncologico,radiot,Radioterapia,cdc00373,RadioterapiaCentro Alta Energia
+Azienda Fintissima,Dipartimento Materno Infantile,ped,Pediatria,cdc00377,Pediatria degenza ematologia-CTMO
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00379,Medicina Nutrizione clinica
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardiol,Cardiologia,cdc00383,Cardiologia Settore Elettrofisiologia
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,chirvas,Chirurgia Vascolare,cdc00390,Attivita Operatoria Chirurgia Vascolare 
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,chirvas,Chirurgia Vascolare,cdc00392,Attivita Ambulatoriale Chirurgia Vascolare 
+Azienda Fintissima,Dipartimento area Chirurgica,chirgen,Chirurgia Generale,cdc00399,Attivita ambulatoriale di colonproctologia
+Azienda Fintissima,Dipartimento Neuroscienze,neurol,Neurologia,cdc00404,Neurologia  Stroke Unit
+Azienda Fintissima,Dipartimento Materno Infantile,ped,Pediatria,cdc00405,Centro per le Malattie Metaboliche Rare
+Azienda Fintissima,Dipartimento Neuroscienze,riab,Medicina Fisica e Riabilitazione ,cdc00412,Attivita ambulatoriale Riabilitazione Specialistica Neuromot
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardiol,Cardiologia,cdc00414,Elettrocardiografianterni
+Azienda Fintissima,Dipartimento area Chirurgica,chirgen,Chirurgia Generale,cdc00418,Attivita ambulatoriale nutrizione clinica
+Azienda Fintissima,Dipartimento area Chirurgica,chirgen,Chirurgia Generale,cdc00420,Attivita ambulatoriale chirurgica dipartimentale 
+Azienda Fintissima,Dipartimento Oncologico,radiot,Radioterapia,cdc00422,Ambulatorio di Radioterapia
+Azienda Fintissima,Dipartimento Emergenza Urgenza,riani,Rianimazione,cdc00424,Ricerca Neuromorfeo
+Azienda Fintissima,Dipartimento area Medica,geria,Geriatria,cdc00425,D.H Geriatria 
+Azienda Fintissima,Dipartimento area Chirurgica,orto,Ortopedia e Traumatologia,cdc00426,Centro di Medicina dello Sport
+Azienda Fintissima,Dipartimento Neuroscienze,riab,Medicina Fisica e Riabilitazione ,cdc00427,Riabilitazione Specialistica Neuromotoria cdc comune
+Azienda Fintissima,Dipartimento Neuroscienze,riab,Medicina Fisica e Riabilitazione ,cdc00429,Riabilitazione Specialistica Neuromotoria degenza
+Azienda Fintissima,Dipartimento Neuroscienze,riab,Medicina Fisica e Riabilitazione ,cdc00431,Medicina Fisica e Riabiltazione day hospital 
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,pneumo,Pneumologia,cdc00437,Pneumologia day service 
+Azienda Fintissima,Dipartimento Neuroscienze,ocul,Oculistica,cdc00438,Oculistica (c. di c. comune)
+Azienda Fintissima,Dipartimento area Medica,malinf,Malattie Infettive,cdc00441,Malattie Infettive (c. di c. comune)
+Azienda Fintissima,Dipartimento Neuroscienze,ocul,Oculistica,cdc00442,Oculistica day hospital e att. ambulatoriale 
+Azienda Fintissima,Dipartimento area Medica,malinf,Malattie Infettive,cdc00444,Malattie Infettive degenza ordinaria
+Azienda Fintissima,Dipartimento Neuroscienze,ocul,Oculistica,cdc00446,Oculistica  degenza sez. B
+Azienda Fintissima,Dipartimento area Medica,malinf,Malattie Infettive,cdc00448,Malattie Infettive degenza day hospital
+Azienda Fintissima,Dipartimento Neuroscienze,ocul,Oculistica,cdc00450,Ambulatori di Oculistica 
+Azienda Fintissima,Dipartimento area Medica,malinf,Malattie Infettive,cdc00452,Ambulatori di Malattie Infettive
+Azienda Fintissima,Dipartimento Neuroscienze,ocul,Oculistica,cdc00454,Ambulatorio di Ortottica
+Azienda Fintissima,Dipartimento area Medica,nefro,Nefrologia e Dialisi,cdc00456,Dialisi ospedaliera
+Azienda Fintissima,Dipartimento Neuroscienze,ocul,Oculistica,cdc00458,Oculistica  Settore Laser terapia
+Azienda Fintissima,Dipartimento Neuroscienze,ocul,Oculistica,cdc00462,OculisticaSettore Chirurgia refrattiva
+Azienda Fintissima,Dipartimento area Medica,nefro,Nefrologia e Dialisi,cdc00464,Nefrologia e Dialisi domiciliare (emodialisi) 
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00466,Ginecologia (c. di c. comune)
+Azienda Fintissima,Dipartimento area Medica,nefro,Nefrologia e Dialisi,cdc00468,Dialisi domiciliare (peritoneale)V.
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00471,Ostetricia Puerperio
+Azienda Fintissima,Dipartimento Materno Infantile,neonat,Neonatologia e T.I. Neonatale,cdc00472,Neonatologia  (Centro di costo comune)
+Azienda Fintissima,Dipartimento Materno Infantile,neonat,Neonatologia e T.I. Neonatale,cdc00473,Neonatologia (c. di c. comune)
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00475,Ostetricia e Ginecologia V.  Pat. della gravidanza
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00476,Ostetricia e GinecologiaPat. della gravidanza
+Azienda Fintissima,Dipartimento Materno Infantile,neonat,Neonatologia e T.I. Neonatale,cdc00477,Neonatologia degen
+Azienda Fintissima,Dipartimento Materno Infantile,neonat,Neonatologia e T.I. Neonatale,cdc00478,Neonatologia degenza
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00480,Ambulatori di Ostetricia 
+Azienda Fintissima,Dipartimento Materno Infantile,neonat,Neonatologia e T.I. Neonatale,cdc00483,T.I. Neonatale degenza
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00485,Ginecologia chirurgica 
+Azienda Fintissima,Dipartimento Materno Infantile,neonat,Neonatologia e T.I. Neonatale,cdc00486,Neonatologia -Nido
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00489,Ginecologia  oncologica
+Azienda Fintissima,Dipartimento Materno Infantile,neonat,Neonatologia e T.I. Neonatale,cdc00490,Ambulatori Patologia Neonatale
+Azienda Fintissima,Dipartimento Materno Infantile,neonat,Neonatologia e T.I. Neonatale,cdc00492,Ambulatori Neonatologia V.
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00495,Sala parto
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00496,Blocco operatorio di Ostetricia
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00500,Ambulatori di Ginecologia -
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00501,Attività operatoria di  Ginecologia 
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00503,Ginecologia V. Settore Patologia della Riproduzione
+Azienda Fintissima,Dipartimento Neuroscienze,ocul,Oculistica,cdc00504,Blocco operatorio di Oculistica 
+Azienda Fintissima,Dipartimento Oncologico,oncol,Oncologia Medica,cdc00505,Oncologia degenza ordinaria
+Azienda Fintissima,Dipartimento Emergenza Urgenza,riani,Rianimazione,cdc00507,Servizio di AnestesiaV.
+Azienda Fintissima,Dipartimento Oncologico,oncol,Oncologia Medica,cdc00508,Oncologia cdc comune
+Azienda Fintissima,Dipartimento Materno Infantile,neonat,Neonatologia e T.I. Neonatale,cdc00511,Perinatologia
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,chirtor,Chirurgia Toracica,cdc00514,Chirurgia Toracica day service 
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardiol,Cardiologia,cdc00516,Cardiologia day hospital 
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,chirvas,Chirurgia Vascolare,cdc00517,Chirurgia Vascolare day service 
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardch,Cardiochirurgia,cdc00520,Cardiochirurgia degenza c/o Chirurgia Toracica
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00521,Pronto Soccorso Ostetricia
+Azienda Fintissima,Dipartimento Neuroscienze,riab,Medicina Fisica e Riabilitazione ,cdc00522,Riabiltazione day hospital e amb ergonomia neurosteom 
+Azienda Fintissima,Dipartimento Materno Infantile,ped,Pediatria,cdc00525,Pronto Soccorso Pediatria
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00530,Ostetricia Centro di costo Comune
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00531,Ostetricia MBBM (Centro di costo Comune)
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardch,Cardiochirurgia,cdc00534,Chirurgia Arteriopatia Diabetica
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardiol,Cardiologia,cdc00535,Cardiologia day service 
+Azienda Fintissima,Dipartimento Neuroscienze,riab,Medicina Fisica e Riabilitazione ,cdc00537,Medicina fisica e riabilitazione  (c.d.c. comune)
+Azienda Fintissima,Dipartimento Neuroscienze,riab,Medicina Fisica e Riabilitazione ,cdc00539,Riabilitazione degenza 
+Azienda Fintissima,Dipartimento Neuroscienze,riab,Medicina Fisica e Riabilitazione ,cdc00541,Riabilitazione degenza day hospital 
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00542,Attivita ambulatoriale di Ginecologia ed Ostetricia 
+Azienda Fintissima,Dipartimento area Chirurgica,orto,Ortopedia e Traumatologia,cdc00544,Attivita ambulatoriale di Ortopedia e Traumatologia 
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00547,Attivita ambulatoriale Medici SUMAI 
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00550,Medicina day service 
+Azienda Fintissima,Dipartimento Neuroscienze,riab,Medicina Fisica e Riabilitazione ,cdc00551,Servizio di Riabilitazione 
+Azienda Fintissima,Dipartimento area Medica,nefro,Nefrologia e Dialisi,cdc00552,Nefrologia e Dialisi day service 
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,pneumo,Pneumologia,cdc00554,Unità Terapiantensiva Respiratoria
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00746,Ambulatori Territoriali (c. di c. comune)
+Azienda Fintissima,Dipartimento Salute Mentale,neurops,Neuropsichiatrianfanzia e Adolescenza,cdc00747,Strutture Territoriali UONPIA (c. di c. comune)
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00750,Poliambulatorio (c. di c. comune)
+Azienda Fintissima,Dipartimento Salute Mentale,neurops,Neuropsichiatrianfanzia e Adolescenza,cdc00751,Polo Territoriale UONPIA
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00752,Dir. Sanitaria di Presidio (cdc com.) 
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00754,Ambulatori medici ospedalieri
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00758,Ambulatori SUMAI
+Azienda Fintissima,Dipartimento Salute Mentale,neurops,Neuropsichiatrianfanzia e Adolescenza,cdc00759,Attivita ambulatoriale psicologia per l'eta evolutiva
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00767,Attivita ambulatoriale libero-professionale Odontoiatri
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00768,Carcere circondariale di  (cdc comune)
+Azienda Fintissima,Dipartimento Salute Mentale,neurops,Neuropsichiatrianfanzia e Adolescenza,cdc00814,Centro San. Terapeut. adolescentin difficolta
+Azienda Fintissima,Dipartimento Salute Mentale,neurops,Neuropsichiatrianfanzia e Adolescenza,cdc00815,Centro Diurno disturbi alimentari 
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00834,Centro Disturbi Alimentazione
+Azienda Fintissima,Dipartimento Materno Infantile,neonat,Neonatologia e T.I. Neonatale,cdc00835,Pronto Soccorso Neonatologia
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardch,Cardiochirurgia,cdc00837,Cardiochirurgia  Altri costi dir.rimb. (file FD)
+Azienda Fintissima,Dipartimento area Medica,geria,Geriatria,cdc00845,Ortogeriatria 
+Azienda Fintissima,Dipartimento Oncologico,emat,Ematologia,cdc00870,Unità Ricerca Clinica
+Azienda Fintissima,Dipartimento area Medica,gastro,Gastroenterologia,cdc00881,Gastroenterologia degenza
+Azienda Fintissima,Dipartimento area Medica,gastro,Gastroenterologia,cdc00887,Gastroenterologia degenza c/o Chirurgia
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00890,Ambulatorionfermieristico
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00891,Malattie metaboliche rare adulti
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00893,Ginecologia Oncologica ambulatori MAC
+Azienda Fintissima,Dipartimento Emergenza Urgenza,riani,Rianimazione,cdc00895,Terapiantensiva 
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardiol,Cardiologia,cdc00896,Ambulatorio Cardiologia 
+Azienda Fintissima,Dipartimento area Chirurgica,chirgen,Chirurgia Generale,cdc00899,Ambulatorio Chirurgia 
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,chirvas,Chirurgia Vascolare,cdc00902,Ambulatorio Chirurgia Vascolare 
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00905,Ambulatorio Medicina 
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00907,Ambulatorio Neurologia 
+Azienda Fintissima,Dipartimento Neuroscienze,ocul,Oculistica,cdc00910,Ambulatorio Oculistica 
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00911,Odontostomatologia 
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,pneumo,Pneumologia,cdc00912,Ambulatorio Pneumologia 
+Azienda Fintissima,Dipartimento area Chirurgica,orto,Ortopedia e Traumatologia,cdc00914,Ambulatorio Ortopedia 
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,cardiol,Cardiologia,cdc00916,Unità cardiocoronarica
+Azienda Fintissima,Dipartimento area Chirurgica,ginec,Ginecologia,cdc00918,Ambulatorio Ginecologia 
+Azienda Fintissima,Dipartimento Neuroscienze,otorin,Otorinolaringoiatria,cdc00921,Ambulatorio ORL 
+Azienda Fintissima,Dipartimento area Medica,derm,Dermatologia,cdc00923,Ambulatorio Dermatologia 
+Azienda Fintissima,Dipartimento area Chirurgica,urolo,Urologia,cdc00924,Ambulatorio Urologia 
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00925,Ambulatorio Reumatologia 
+Azienda Fintissima,Dipartimento Oncologico,oncol,Oncologia Medica,cdc00926,Ambulatorio Oncologia 
+Azienda Fintissima,Staff Direzione Sanitaria,dirmed,Direzione Medica Presidio ,cdc00931,Ambulatorio Allergologia 
+Azienda Fintissima,Dipartimento area Medica,medic,Medicina,cdc00932,Ambulatorio Diabetologia 
+Azienda Fintissima,Dipartimento Neuroscienze,riab,Medicina Fisica e Riabilitazione ,cdc00933,Riabilitazione subacuti 
+Azienda Fintissima,Dipartimento Emergenza Urgenza,riani,Rianimazione,cdc00939,Neurochirurgia subintensiva c/o T.I.Nch
+Azienda Fintissima,Dipartimento Neuroscienze,riab,Medicina Fisica e Riabilitazione ,cdc00942,Ambulatorio Medicina Fisica e Riabilitativa 
+Azienda Fintissima,Dipartimento cardio-toraco-vascolare,chirtor,Chirurgia Toracica,cdc00945,Week Surgery Chirurgia Toracica
+Azienda Fintissima,Dipartimento Materno Infantile,ped,Pediatria,cdc00969,Pediatria  day hospital Ematologico
