@@ -1,0 +1,221 @@
+<Schema name="corso">
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="centri">
+    <Hierarchy visible="true" hasAll="true" allMemberName="Tutto" primaryKey="id">
+      <Table name="dim_centri">
+      </Table>
+      <Level name="Azienda" visible="true" column="azienda" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Dipartimento" visible="true" column="dipartimento" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Centro di Responsabilita" visible="true" column="cod_cdr" nameColumn="descrizione_cdr" ordinalColumn="descrizione_cdr" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="Centro di Responsabilit&#224;">
+        <Property name="Codice CdR" column="cod_cdr" type="String">
+        </Property>
+      </Level>
+      <Level name="Centro di Costo" visible="true" column="cod_cdc" nameColumn="descrizione_cdc" ordinalColumn="descrizione_cdc" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never">
+        <Property name="Codice CdC" column="cod_cdc" type="String">
+        </Property>
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="TimeDimension" visible="true" highCardinality="false" name="data">
+    <Hierarchy visible="true" hasAll="true" allMemberName="Tutti" primaryKey="id">
+      <Table name="dim_data">
+      </Table>
+      <Level name="Anno" visible="true" column="anno" type="Integer" uniqueMembers="true" levelType="TimeYears" hideMemberIf="Never">
+      </Level>
+      <Level name="Mese" visible="true" column="mese" ordinalColumn="mese_nr" type="String" uniqueMembers="false" levelType="TimeMonths" hideMemberIf="Never">
+        <Property name="Numero Mese" column="mese_nr" type="String">
+        </Property>
+      </Level>
+      <Level name="Giorno" visible="true" column="data_breve" ordinalColumn="giorno_mese" type="String" uniqueMembers="true" levelType="TimeDays" hideMemberIf="Never">
+        <Property name="Data Lunga" column="data_lunga" type="String">
+        </Property>
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="per trimestre" visible="true" hasAll="true" allMemberName="Tutti" primaryKey="id">
+      <Table name="dim_data">
+      </Table>
+      <Level name="Anno" visible="true" column="anno" type="Integer" uniqueMembers="true" levelType="TimeYears" hideMemberIf="Never">
+      </Level>
+      <Level name="Trimestre" visible="true" column="trimestre" type="String" uniqueMembers="false" levelType="TimeQuarters" hideMemberIf="Never">
+      </Level>
+      <Level name="Mese" visible="true" column="mese" ordinalColumn="mese_nr" type="String" uniqueMembers="false" levelType="TimeMonths" hideMemberIf="Never">
+      </Level>
+      <Level name="Giorno" visible="true" column="data_breve" ordinalColumn="giorno_mese" type="String" uniqueMembers="true" levelType="TimeDays" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+    <Hierarchy name="per giorno settimana" visible="true" hasAll="true" allMemberName="Tutti" primaryKey="id">
+      <Table name="dim_data">
+      </Table>
+      <Level name="Giorno della settimana" visible="true" column="giorno_della_settimana" ordinalColumn="giorno_settimana_nr" type="String" uniqueMembers="true" levelType="TimeDays" hideMemberIf="Never">
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="prestazioni">
+    <Hierarchy visible="true" hasAll="true" allMemberName="Tutte" primaryKey="id">
+      <Table name="dim_prestazioni">
+      </Table>
+      <Level name="Prestazione" visible="true" column="codice" nameColumn="descrizione" ordinalColumn="descrizione" type="String" internalType="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never">
+        <Property name="Codice Prestazione" column="codice" type="String">
+        </Property>
+        <Property name="Codice Prestazione Senza Punto" column="codice_senza_punto" type="String">
+        </Property>
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Dimension type="StandardDimension" visible="true" highCardinality="false" name="presidi">
+    <Hierarchy visible="true" hasAll="true" allMemberName="Tutti" primaryKey="id">
+      <Table name="dim_presidio">
+      </Table>
+      <Level name="Ente" visible="true" column="ente" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never">
+      </Level>
+      <Level name="Presidio" visible="true" column="presidio" nameColumn="descrizione" ordinalColumn="descrizione" type="String" uniqueMembers="false" levelType="Regular" hideMemberIf="Never">
+        <Property name="Codice Presidio" column="presidio" type="String">
+        </Property>
+      </Level>
+    </Hierarchy>
+  </Dimension>
+  <Cube name="Prestazioni" visible="true" description="Prestazioni ambulatoriali" cache="true" enabled="true">
+    <Table name="facts_prestazioni">
+    </Table>
+    <DimensionUsage source="presidi" name="Presidio" caption="Presidio" visible="true" foreignKey="id_presidio" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="centri" name="Centro" caption="Centro" visible="true" foreignKey="id_centro" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="data" name="Data Contatto" caption="Data Contatto" visible="true" foreignKey="id_data_contatto" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="data" name="Data Fine Erogazione" caption="Data Fine Erogazione" visible="true" foreignKey="id_data_erogazione" highCardinality="false">
+    </DimensionUsage>
+    <DimensionUsage source="prestazioni" name="Prestazione" caption="Prestazione" visible="true" foreignKey="id_prestazione" highCardinality="false">
+    </DimensionUsage>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Codice Ricetta">
+      <Hierarchy visible="true" hasAll="true" allMemberName="Tutti">
+        <Level name="Codice Ricetta" visible="true" column="id_record" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" highCardinality="false" name="Codice Fiscale">
+      <Hierarchy visible="true" hasAll="true" allMemberName="Tutti">
+        <Level name="Codice Fiscale" visible="true" column="id_paziente" type="String" uniqueMembers="true" levelType="Regular" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Measure name="_Numero Prestazioni" column="quantita" datatype="Numeric" formatString="#,##0" aggregator="sum" visible="false">
+    </Measure>
+    <Measure name="_Valore" column="valore" datatype="Numeric" formatString="#,##0" aggregator="sum" visible="false">
+    </Measure>
+    <Measure name="_NRecords" column="id" datatype="Integer" formatString="#,##0" aggregator="count" visible="false">
+    </Measure>
+    <Measure name="_Numero Pazienti" column="id_paziente" datatype="Integer" formatString="#,##0" aggregator="distinct-count" visible="false">
+    </Measure>
+    <Measure name="_Numero Ricette" column="id_record" datatype="Integer" formatString="#,##0" aggregator="distinct-count" visible="false">
+    </Measure>
+    <CalculatedMember name="Numero Prestazioni" formatString="#,##0" formula="[Measures].[_Numero Prestazioni]" dimension="Measures" visible="true">
+    </CalculatedMember>
+    <CalculatedMember name="Prestazioni Cumulate Anno Precedente" formatString="#,##0" dimension="Measures" visible="false">
+      <Formula>
+        <![CDATA[Aggregate(
+  PeriodsToDate([Data Fine Erogazione].[Anno],
+    ParallelPeriod([Data Fine Erogazione].[Mese],12, [Data Fine Erogazione].CurrentMember.LastChild)
+  ),[Measures].[Numero Prestazioni]
+)]]>
+      </Formula>
+    </CalculatedMember>
+    <CalculatedMember name="Prestazioni Periodo Precedente" formatString="#,##0" dimension="Measures" visible="true">
+      <Formula>
+        <![CDATA[IIf(   [Data Fine Erogazione].CurrentMember.Level.Name = "Anno",   [Measures].[Prestazioni Cumulate Anno Precedente],   ([Measures].[Numero Prestazioni], ParallelPeriod([Data Fine Erogazione].[Anno])) )]]>
+      </Formula>
+    </CalculatedMember>
+    <CalculatedMember name="Prestazioni - Variazione Vs. Periodo Precedente" formatString="#,##0" dimension="Measures" visible="true">
+      <Formula>
+        <![CDATA[([Measures].[Numero Prestazioni] - [Measures].[Prestazioni Periodo Precedente])]]>
+      </Formula>
+    </CalculatedMember>
+    <CalculatedMember name="Prestazioni - Variazione Percentuale Vs. Periodo Precedente" formatString="#,##0.00%" dimension="Measures" visible="true">
+      <Formula>
+        <![CDATA[([Measures].[Prestazioni - Variazione Vs. Periodo Precedente] / [Measures].[Prestazioni Periodo Precedente])]]>
+      </Formula>
+    </CalculatedMember>
+    <CalculatedMember name="Prestazioni Cumulate" formatString="#,##0" dimension="Measures" visible="true">
+      <Formula>
+        <![CDATA[Aggregate(   
+        PeriodsToDate([Data Fine Erogazione].[Anno],[Data Fine Erogazione].CurrentMember)  ,[Measures].[Numero Prestazioni] 
+        )]]>
+      </Formula>
+    </CalculatedMember>
+    <CalculatedMember name="Prestazioni Cumulate Periodo Precedente" formatString="#,##0" dimension="Measures" visible="true">
+      <Formula>
+        <![CDATA[IIf(
+  [Data Fine Erogazione].CurrentMember.Level.Name = "Anno",
+  [Measures].[Prestazioni Cumulate Anno Precedente],
+  ([Measures].[Prestazioni Cumulate], ParallelPeriod([Data Fine Erogazione].[Anno]))
+)]]>
+      </Formula>
+    </CalculatedMember>
+    <CalculatedMember name="Prestazioni Cumulate - Variazione Vs. Periodo Precedente" formatString="#,##0" dimension="Measures" visible="true">
+      <Formula>
+        <![CDATA[([Measures].[Prestazioni Cumulate] - [Measures].[Prestazioni Cumulate Periodo Precedente])]]>
+      </Formula>
+    </CalculatedMember>
+    <CalculatedMember name="Prestazioni Cumulate - Variazione Percentuale Vs. Periodo Precedente" formatString="#,##0.00%" dimension="Measures" visible="true">
+      <Formula>
+        <![CDATA[([Measures].[Prestazioni Cumulate - Variazione Vs. Periodo Precedente] / [Measures].[Prestazioni Cumulate Periodo Precedente])]]>
+      </Formula>
+    </CalculatedMember>
+    <CalculatedMember name="Valore" formatString="#,##0" formula="[Measures].[_Valore]" dimension="Measures" visible="true">
+    </CalculatedMember>
+    <CalculatedMember name="Valore Cumulato Anno Precedente" dimension="Measures" visible="false">
+      <Formula>
+        <![CDATA[Aggregate(
+  PeriodsToDate([Data Fine Erogazione].[Anno],
+    ParallelPeriod([Data Fine Erogazione].[Mese],12, [Data Fine Erogazione].CurrentMember.LastChild)
+  ),[Measures].[Valore]
+)]]>
+      </Formula>
+    </CalculatedMember>
+    <CalculatedMember name="Valore Periodo Precedente" formatString="#,##0" formula="IIf(   [Data Fine Erogazione].CurrentMember.Level.Name = &#34;Anno&#34;,   [Measures].[Valore Cumulato Anno Precedente],   ([Measures].[Valore], ParallelPeriod([Data Fine Erogazione].[Anno])) )" dimension="Measures" visible="true">
+    </CalculatedMember>
+    <CalculatedMember name="Valore - Variazione Vs. Periodo Precedente" formatString="#,##0" dimension="Measures" visible="true">
+      <Formula>
+        <![CDATA[([Measures].[Valore] - [Measures].[Valore Periodo Precedente])]]>
+      </Formula>
+    </CalculatedMember>
+    <CalculatedMember name="Valore - Variazione Percentuale Vs. Periodo Precedente" formatString="#,##0.00%" dimension="Measures" visible="true">
+      <Formula>
+        <![CDATA[([Measures].[Valore - Variazione Vs. Periodo Precedente] / [Measures].[Valore Periodo Precedente])]]>
+      </Formula>
+    </CalculatedMember>
+    <CalculatedMember name="Valore Cumulato" formatString="#,##0" dimension="Measures" visible="true">
+      <Formula>
+        <![CDATA[Aggregate(   
+        PeriodsToDate([Data Fine Erogazione].[Anno],[Data Fine Erogazione].CurrentMember)  ,[Measures].[Valore] 
+        )]]>
+      </Formula>
+    </CalculatedMember>
+    <CalculatedMember name="Valore Cumulato Periodo Precedente" formatString="#,##0" dimension="Measures" visible="true">
+      <Formula>
+        <![CDATA[IIf(
+  [Data Fine Erogazione].CurrentMember.Level.Name = "Anno",
+  [Measures].[Valore Cumulato Anno Precedente],
+  ([Measures].[Valore Cumulato], ParallelPeriod([Data Fine Erogazione].[Anno]))
+)]]>
+      </Formula>
+    </CalculatedMember>
+    <CalculatedMember name="Valore Cumulato - Variazione Vs. Periodo Precedente" formatString="#,##0" dimension="Measures" visible="true">
+      <Formula>
+        <![CDATA[([Measures].[Valore Cumulato] - [Measures].[Valore Cumulato Periodo Precedente])]]>
+      </Formula>
+    </CalculatedMember>
+    <CalculatedMember name="Valore Cumulato - Variazione Percentuale Vs. Periodo Precedente" formatString="#,##0.00%" dimension="Measures" visible="true">
+      <Formula>
+        <![CDATA[([Measures].[Valore Cumulato - Variazione Vs. Periodo Precedente] / [Measures].[Valore Cumulato Periodo Precedente])]]>
+      </Formula>
+    </CalculatedMember>
+    <CalculatedMember name="NRecords" formatString="#,##0" formula="[Measures].[_NRecords]" dimension="Measures" visible="true">
+    </CalculatedMember>
+    <CalculatedMember name="Numero Pazienti" formatString="#,##0" formula="[Measures].[_Numero Pazienti]" dimension="Measures" visible="true">
+    </CalculatedMember>
+    <CalculatedMember name="Numero Ricette" formatString="#,##0" formula="[Measures].[_Numero Ricette]" dimension="Measures" visible="true">
+    </CalculatedMember>
+  </Cube>
+</Schema>
