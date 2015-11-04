@@ -66,3 +66,20 @@ CREATE TABLE `dim_centri` (
 
 INSERT INTO dim_centri (id,cod_cdc,azienda,dipartimento,cod_cdr,descrizione_cdr,descrizione_cdc,version,date_from,date_to) VALUES (0 /*not nullable*/,'Non Disponibile','Non Disponibile','Non Disponibile','Non Disponibile','Non Disponibile','Non Disponibile',1,{d '1900-01-01'},{d '2200-01-01'});
 
+CREATE TABLE `dim_prestazioni` (
+  `id` int(11) NOT NULL,
+  `codice_senza_punto` varchar(16) DEFAULT NULL,
+  `codice` varchar(16) DEFAULT NULL,
+  `descrizione` varchar(512) DEFAULT NULL,
+  `codice_descrizione` varchar(512) DEFAULT NULL,
+  `tariffa` decimal(11,4) DEFAULT NULL,
+  `version` int(11) DEFAULT NULL,
+  `date_from` date DEFAULT NULL,
+  `date_to` date DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `idx_dim_prestazioni_lookup` (`codice_senza_punto`),
+  KEY `idx_dim_prestazioni_tk` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ;
+
+INSERT INTO dim_prestazioni (id,codice_senza_punto,codice,descrizione,codice_descrizione,tariffa,version,date_from,date_to) VALUES (0 /*not nullable*/,'Non Disponibile','Non Disponibile','Non Disponibile','Non Disponibile',0,1,{d '1900-01-01'},{d '2200-01-01'});
+
