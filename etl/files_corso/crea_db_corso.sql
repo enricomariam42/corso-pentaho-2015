@@ -83,3 +83,62 @@ CREATE TABLE `dim_prestazioni` (
 
 INSERT INTO dim_prestazioni (id,codice_senza_punto,codice,descrizione,codice_descrizione,tariffa,version,date_from,date_to) VALUES (0 /*not nullable*/,'Non Disponibile','Non Disponibile','Non Disponibile','Non Disponibile',0,1,{d '1900-01-01'},{d '2200-01-01'});
 
+CREATE TABLE `facts_prestazioni` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `id_record` varchar(64) NOT NULL,
+  `id_paziente` varchar(64) NOT NULL,
+  `id_data_contatto` int(11) NOT NULL,
+  `id_data_erogazione` int(11) NOT NULL,
+  `id_centro` int(11) NOT NULL,
+  `id_presidio` int(11) NOT NULL,
+  `id_prestazione` int(11) NOT NULL,
+  `quantita` int(11) NOT NULL,
+  `valore` decimal(11,4) NOT NULL,
+  CONSTRAINT `PK_facts_prestazioni` PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ;
+
+ALTER TABLE `facts_prestazioni`   
+  ADD CONSTRAINT `dim_presidio_facts_prestazioni`
+  FOREIGN KEY (`id_presidio`)
+  REFERENCES `dim_presidio` (`id` )  
+  MATCH FULL 
+  ON UPDATE RESTRICT 
+  ON DELETE RESTRICT 
+  ;
+
+ALTER TABLE `facts_prestazioni`   
+  ADD CONSTRAINT `dim_data_contatto_facts_prestazioni`
+  FOREIGN KEY (`id_data_contatto`)
+  REFERENCES `dim_data` (`id` )  
+  MATCH FULL 
+  ON UPDATE RESTRICT 
+  ON DELETE RESTRICT 
+  ;
+
+ALTER TABLE `facts_prestazioni`   
+  ADD CONSTRAINT `dim_data_erogazione_facts_prestazioni`
+  FOREIGN KEY (`id_data_erogazione`)
+  REFERENCES `dim_data` (`id` )  
+  MATCH FULL 
+  ON UPDATE RESTRICT 
+  ON DELETE RESTRICT 
+  ;
+
+ALTER TABLE `facts_prestazioni`   
+  ADD CONSTRAINT `dim_centri_facts_prestazioni`
+  FOREIGN KEY (`id_centro`)
+  REFERENCES `dim_centri` (`id` )  
+  MATCH FULL 
+  ON UPDATE RESTRICT 
+  ON DELETE RESTRICT 
+  ;
+
+ALTER TABLE `facts_prestazioni`   
+  ADD CONSTRAINT `dim_prestazioni_facts_prestazioni`
+  FOREIGN KEY (`id_prestazione`)
+  REFERENCES `dim_prestazioni` (`id` )  
+  MATCH FULL 
+  ON UPDATE RESTRICT 
+  ON DELETE RESTRICT 
+  ;
+
